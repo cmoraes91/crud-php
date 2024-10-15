@@ -20,9 +20,9 @@ $alunos = $query→fetchAll(PDO::FETCH_ASSOC);
     <td><?php echo $aluno['nome']; ?></td>
     <td><?php echo $aluno['email']; ?></td>
   <td>
-    <a href="editar_aluno-php?id=<?php echo $alunol'id']; ?>">Editar</a>
-    <a href="excluir_aluno.php?id=<?php echo $aluno['id']; ?>">Excluir</a>
+    <a href="editar_aluno-php?id=<?php echo $aluno['id']; ?>">editar</a>
+    <a href="excluir_aluno.php?id=<?php echo $aluno['id']; ?>">excluir</a>
   </td>
 </tr>
-<?php endforeach; ?>
+<?php endforeach; ?>
 </table>
